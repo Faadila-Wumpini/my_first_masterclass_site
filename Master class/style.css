@@ -1,0 +1,52 @@
+* {
+   
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0%;
+    
+    
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+}
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+
+.initial-image {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    text-align: center;
+}
+
+div.logins {
+   width: 50%;
+   align-items: center;
+
+}
+form {
+    align-items: center;
+}
+input {
+    width: 40vw;
+    height: 5vh;
+}
+button {
+    height: 4vh;
+    width: 40vw;
+    background-color: purple;
+    color: white;
+}
